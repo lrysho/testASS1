@@ -1,0 +1,9 @@
+lr: 0.01 
+epochs: 10
+batch_size: 64
+num_workers: 2
+data: 'flower_dataset' # your dataset path
+work_dir: 'work_dir' # path to save the model
+lr_strategy:
+  step: 5
+  gamma: 0.05
